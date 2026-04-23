@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p{
+	font-size: 13px;
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'TikTok Sans', sans-serif;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+}
+
+b{
+	border-bottom: 2px solid #fff;
+	
+}
+
+video {
+	height: 100%;
+	width: 100%;
+	display: block;
+	object-position: center;
+	object-fit: cover;
+}
+
+.bi.bi-play-btn {
+	width: 30px;
+	height: 20px;
+}
+
+.bi.bi-search {
+	width: 30px;
+	height: 20px;
+}
+
+.reel-page {
+	height: 100vh; /* ti incuriosisce? */
+	max-width: 512px;
+	min-width: 400px;
+	position: relative;
+}
+
+.reel-header {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	color:#fff;
+	word-spacing: 8px;
+	padding-block: 20px;
+	padding-inline: 20px;
+	min-height: 50px;
+}
+
+
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	min-height: 80px;
+	background-color: black;
+
+}
+
+h4{
+	position: absolute;
+	bottom: 145px;
+	padding-left: 10px;
+}
+
+.descrizione{
+	font-size: 14px;
+	position: absolute;
+	bottom: 98px;
+	padding-left: 10px;
+}
+
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 16px;
+	position: absolute;
+	right: 0;
+	top: 40%;
+	color: #fff;
+	min-width: 80px;
+	min-height: 450px;
+}
+
+.bi.bi-icon {
+	width: 30px;
+	height: 50px;
+	padding-top: 15px;
+}
+
+.icon{
+	font-size: 12px;
+	padding-left: 4px;
+}
+
+.icon1{
+	font-size: 12px;
+	padding-left: 4px;
+	color: black;
+}
+
+.plus{
+	background-color: rgb(233, 59, 59);
+	font-size: 17px;
+	color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	text-align: center;
+	width: 19px;
+	height: 21px;
+	top: 35px;
+}
+
+img{
+	border: #fff 2px solid;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	margin-bottom: 20px;
+}
+
+.actions{
+	height: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-end;
+
+}
+
+.bi.bi-di{
+	position: absolute;
+	padding-left: 0 10px;
+	bottom: 40px;
+	width: 40px;
+	height: 25px;
+
+}
+
+.bi.bi-di-1{
+	border-right: 2px solid magenta;
+	border-radius: 4px;
+	border-left: 2px solid rgb(5, 228, 224);
+	position: absolute;
+	left: 46%;
+	right: 54%;
+	bottom: 40px;
+	width: 30px;
+	height: 25px;
+}
+
+
+
